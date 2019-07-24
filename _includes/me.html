@@ -1,0 +1,28 @@
+<script>
+  function toggleNavbarRight() {
+    var x = document.getElementById("navbar-right");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+</script>
+
+<div class="bg-light">
+  <nav class="navbar navbar-custom">
+    <a class="navbar-brand" href="#">
+      <img src="{{ site.logo }}" width="40" height="40" alt="" />
+    </a>
+    <div class="right">
+      <div class="navbar-right" id="navbar-right">
+        <a href="#">Projects</a>
+        <a href="#">Interests</a>
+        <a href="#">Contact</a>
+      </div>
+      <div onclick="toggleNavbarRight()">
+        <i style="padding: 0px 10px 0 10px;" class="fa fa-bars fa-1x"></i>
+      </div>
+    </div>
+  </nav>
+</div>

@@ -1,0 +1,28 @@
+.navbar-custom {
+  background-color: black;
+}
+
+html body {
+  background-color: black !important;
+}
+
+.fa-bars {
+  color: white;
+}
+
+.right {
+  float: right;
+  display: flex;
+}
+
+.navbar-right a {
+  color: white !important;
+  padding: 5px 10px 5px 10px;
+  flex: 50%;
+}
+
+.navbar-right a:hover {
+  color: black !important;
+  text-decoration: none;
+  background-color: white;
+}
