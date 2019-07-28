@@ -1,43 +1,12 @@
-/* .navbar-custom {
-  background-color: black;
-}*/
-
 html body {
   background-color: black !important;
 }
 
-.nav-link:hover{
-	background-color: white !important;
-	color: black !important;
+.nav-link {
+  font-size: 1.2rem;
 }
 
-/*
-#menu-button {
-  color: white;
-}
-
-.right {
-  float: right;
-  display: flex;
-}
-
-.navbar-right {
-  display: none;
-}
-
-.navbar-right a {
-  color: white !important;
-  padding: 5px 10px 5px 10px;
-  flex: 50%;
-}
-
-.navbar-right a:hover {
+.nav-link:hover {
+  background-color: white !important;
   color: black !important;
-  text-decoration: none;
-  background-color: white;
-} */
-
-
-.navbar-dark .bg-dark {
-	background-color: black !important;
 }
