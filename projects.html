@@ -3,6 +3,21 @@ layout: default
 permalink: /projects/
 ---
 
-<div class="container">
-  <h1>Projects</h1>
+<div class="container projects">
+  <p class="display-4">Projects</p>
+  {% for project in site.data.projects %}
+  <div class="row p-3">
+    <a href="{{ project.url }}">
+      <h1>{{ project.name }}</h1>
+    </a>
+    <a href="{{ project.url }}">
+      <img
+        class="img-fluid pb-4"
+        src="{{ project.image }}"
+        alt="project image"
+      />
+    </a>
+    <p>{{ project.description }}</p>
+  </div>
+  {% endfor %}
 </div>

@@ -1,0 +1,42 @@
+# image should include technologies used in the project on the side
+- name: Tracked
+  image: https://via.placeholder.com/1080x360/
+  url: https://github.com/ajilk
+  date: June 2019 - Present
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+      placerat dui cursus sapien hendrerit, a aliquet est suscipit. Etiam magna
+      justo, egestas at est ut, ultricies molestie eros. Vestibulum a nulla
+      congue, finibus nulla porta, posuere lacus. Vivamus porta auctor sapien
+      rutrum pharetra. Duis sed bibendum enitiam scelerisque elit ac
+      vehicula gravida.
+
+- name: ajilk.com
+  image: https://via.placeholder.com/1080x360/
+  url: https://github.com/ajilk/ajilk.github.io
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+      placerat dui cursus sapien hendrerit, a aliquet est suscipit. Etiam magna
+      justo, egestas at est ut, ultricies molestie eros. Vestibulum a nulla
+      congue, finibus nulla porta, posuere lacus. Vivamus porta auctor sapien
+      rutrum pharetra. Duis sed bibendum enim. Etiam scelerisque elit ac
+      vehicula gravida.
+
+- name: XO
+  image: https://via.placeholder.com/1080x360/
+  url: https://github.com/ajilk/xo
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+      placerat dui cursus sapien hendrerit, a aliquet est suscipit. Etiam magna
+      justo, egestas at est ut, ultricies molestie eros. Vestibulum a nulla
+      congue, finibus nulla porta, posuere lacus. Vivamus porta auctor sapien
+      rutrum pharetra. Duis sed bibendum enim. Etiam scelerisque elit ac
+      vehicula gravida.
+
+
+- name: Concept
+  image: https://via.placeholder.com/1080x360/
+  url: https://github.com/ajilk/concept
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+      placerat dui cursus sapien hendrerit, a aliquet est suscipit. Etiam magna
+      justo, egestas at est ut, ultricies molestie eros. Vestibulum a nulla
+      congue, finibus nulla porta, posuere lacus. Vivamus porta auctor sapien
+      rutrum pharetra. Duis sed bibendum enim. Etiam scelerisque elit ac
+      vehicula gravida.

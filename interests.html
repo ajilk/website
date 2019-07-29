@@ -3,6 +3,19 @@ layout: default
 permalink: /interests/
 ---
 
-<div class="container">
-  <h1>Interests</h1>
+<div class="container interests">
+  <p class="display-4">Interests</p>
+  <div class="row">
+    {% for interest in site.data.interests %}
+    <div class="col-md-6 py-3 pr-6">
+      <h1>{{ interest.name }}</h1>
+      <img
+        class="img-fluid pb-4"
+        src="{{ interest.image }}"
+        alt="interst image"
+      />
+      <p>{{ interest.description }}</p>
+    </div>
+    {% endfor %}
+  </div>
 </div>

@@ -1,0 +1,36 @@
+- name: Piano
+  image: https://via.placeholder.com/1080x360/
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+      placerat dui cursus sapien hendrerit, a aliquet est suscipit. Etiam magna
+      justo, egestas at est ut, ultricies molestie eros. Vestibulum a nulla
+      congue, finibus nulla porta, posuere lacus. Vivamus porta auctor sapien
+      rutrum pharetra. Duis sed bibendum enitiam scelerisque elit ac
+      vehicula gravida.
+
+- name: Sports
+  image: https://via.placeholder.com/1080x360/
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+      placerat dui cursus sapien hendrerit, a aliquet est suscipit. Etiam magna
+      justo, egestas at est ut, ultricies molestie eros. Vestibulum a nulla
+      congue, finibus nulla porta, posuere lacus. Vivamus porta auctor sapien
+      rutrum pharetra. Duis sed bibendum enitiam scelerisque elit ac
+      vehicula gravida.
+
+- name: Drawing
+  image: https://via.placeholder.com/1080x360/
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+      placerat dui cursus sapien hendrerit, a aliquet est suscipit. Etiam magna
+      justo, egestas at est ut, ultricies molestie eros. Vestibulum a nulla
+      congue, finibus nulla porta, posuere lacus. Vivamus porta auctor sapien
+      rutrum pharetra. Duis sed bibendum enitiam scelerisque elit ac
+      vehicula gravida.
+
+
+- name: Cubing
+  image: https://via.placeholder.com/1080x360/
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+      placerat dui cursus sapien hendrerit, a aliquet est suscipit. Etiam magna
+      justo, egestas at est ut, ultricies molestie eros. Vestibulum a nulla
+      congue, finibus nulla porta, posuere lacus. Vivamus porta auctor sapien
+      rutrum pharetra. Duis sed bibendum enitiam scelerisque elit ac
+      vehicula gravida.
