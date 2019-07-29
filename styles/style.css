@@ -37,6 +37,7 @@ hr {
   margin-bottom: 1rem !important;
 }
 
+/* Support for Responsive Buttons */
 @media (max-width: 767px) {
   .btn-xs-block {
     display: block;
