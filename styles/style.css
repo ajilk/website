@@ -28,6 +28,32 @@
   color: black;
 }
 
+.btnLink {
+	text-decoration: none !important;
+}
+
+hr {
+  margin-top: 0 !important;
+  margin-bottom: 1rem !important;
+}
+
+@media (max-width: 767px) {
+  .btn-xs-block {
+    display: block;
+    width: 100%;
+  }
+  input[type="submit"].btn-xs-block,
+  input[type="reset"].btn-xs-block,
+  input[type="button"].btn-xs-block {
+    width: 100%;
+  }
+  .btn-block + .btn-xs-block,
+  .btn-xs-block + .btn-block,
+  .btn-xs-block + .btn-xs-block {
+    margin-top: 0.5rem;
+  }
+}
+
 /* Disable orange focus outline */
 button:focus,
 button:active:focus,
@@ -36,6 +62,7 @@ button.focus,
 button:active.focus,
 button.active.focus {
   outline: none !important;
+  box-shadow: none !important;
 }
 
 /* Hide scrollbar */

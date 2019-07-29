@@ -22,15 +22,19 @@
     />
 
     <!-- Font Awesome -->
-    <link
+    <script defer src="/assets/fa/js/all.js"></script>
+    <!--load all styles -->
+    <!-- <script src="https://kit.fontawesome.com/71dfd27c2c.js"></script> -->
+    <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    /> -->
   </head>
 
   <body>
     {% include navigation.html %}
     {{ content }}
+    {% include footer.html %}
     <!-- Boostrap JS -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
