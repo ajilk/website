@@ -9,11 +9,7 @@ permalink: /interests/
     {% for interest in site.data.interests %}
     <div class="col-md-6 py-3 pr-6">
       <h1>{{ interest.name }}</h1>
-      <img
-        class="img-fluid pb-4"
-        src="{{ interest.image }}"
-        alt="interst image"
-      />
+      <img class="img-fluid pb-4" src="{{ interest.image }}" alt="interst image" />
       <p>{{ interest.description }}</p>
     </div>
     {% endfor %}
