@@ -1,36 +1,14 @@
-- name: Piano
-  image: https://via.placeholder.com/1080x360/
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-      placerat dui cursus sapien hendrerit, a aliquet est suscipit. Etiam magna
-      justo, egestas at est ut, ultricies molestie eros. Vestibulum a nulla
-      congue, finibus nulla porta, posuere lacus. Vivamus porta auctor sapien
-      rutrum pharetra. Duis sed bibendum enitiam scelerisque elit ac
-      vehicula gravida.
+- name: Sketching, Writing, Videography
+  image: 
+  description: 
+    I am all about creation of something from nothing (no wonder why I am
+    into CS). It started with sketching anything that was visible to my eyes
+    then continued into writing about anything my little brain can comprehend
+    or most of the time about what I do not understand. I also enjoy playing
+    the piano and cubing on my free time.
 
-- name: Sports
+- name: TaeKwonDo, Muay Thai, Tricking
   image: https://via.placeholder.com/1080x360/
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-      placerat dui cursus sapien hendrerit, a aliquet est suscipit. Etiam magna
-      justo, egestas at est ut, ultricies molestie eros. Vestibulum a nulla
-      congue, finibus nulla porta, posuere lacus. Vivamus porta auctor sapien
-      rutrum pharetra. Duis sed bibendum enitiam scelerisque elit ac
-      vehicula gravida.
-
-- name: Drawing
-  image: https://via.placeholder.com/1080x360/
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-      placerat dui cursus sapien hendrerit, a aliquet est suscipit. Etiam magna
-      justo, egestas at est ut, ultricies molestie eros. Vestibulum a nulla
-      congue, finibus nulla porta, posuere lacus. Vivamus porta auctor sapien
-      rutrum pharetra. Duis sed bibendum enitiam scelerisque elit ac
-      vehicula gravida.
-
-
-- name: Cubing
-  image: https://via.placeholder.com/1080x360/
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-      placerat dui cursus sapien hendrerit, a aliquet est suscipit. Etiam magna
-      justo, egestas at est ut, ultricies molestie eros. Vestibulum a nulla
-      congue, finibus nulla porta, posuere lacus. Vivamus porta auctor sapien
-      rutrum pharetra. Duis sed bibendum enitiam scelerisque elit ac
-      vehicula gravida.
+  description: 
+    I enjoy challenging myself physically. I have done TaeKwonDo and Muay Thai.
+    Tricking is also another interest of mine since it involves greater risk. 
