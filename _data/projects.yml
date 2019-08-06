@@ -1,42 +1,39 @@
 # image should include technologies used in the project on the side
 - name: Tracked
-  image: https://via.placeholder.com/1080x360/
-  url: https://github.com/ajilk
+  image: /assets/images/projects/tracked.png
+  url: "/tracked/"
   date: June 2019 - Present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-      placerat dui cursus sapien hendrerit, a aliquet est suscipit. Etiam magna
-      justo, egestas at est ut, ultricies molestie eros. Vestibulum a nulla
-      congue, finibus nulla porta, posuere lacus. Vivamus porta auctor sapien
-      rutrum pharetra. Duis sed bibendum enitiam scelerisque elit ac
-      vehicula gravida.
+  description:
+    A mobile application designed to track DOE assets. Built using <a class="link"
+    href="https://flutter.dev">Flutter</a> SDK and <a
+    href="http://firebase.google.com"> Firebase </a> to achieve cross mobile
+    platform compatibility as well as fast user authentication and data
+    retrieval.
 
 - name: ajilk.com
-  image: https://via.placeholder.com/1080x360/
+  image: /assets/images/projects/ajilk.png
   url: https://github.com/ajilk/ajilk.github.io
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-      placerat dui cursus sapien hendrerit, a aliquet est suscipit. Etiam magna
-      justo, egestas at est ut, ultricies molestie eros. Vestibulum a nulla
-      congue, finibus nulla porta, posuere lacus. Vivamus porta auctor sapien
-      rutrum pharetra. Duis sed bibendum enim. Etiam scelerisque elit ac
-      vehicula gravida.
-
-- name: XO
-  image: https://via.placeholder.com/1080x360/
-  url: https://github.com/ajilk/xo
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-      placerat dui cursus sapien hendrerit, a aliquet est suscipit. Etiam magna
-      justo, egestas at est ut, ultricies molestie eros. Vestibulum a nulla
-      congue, finibus nulla porta, posuere lacus. Vivamus porta auctor sapien
-      rutrum pharetra. Duis sed bibendum enim. Etiam scelerisque elit ac
-      vehicula gravida.
-
+  description: A personal website built using modern web technologies (<a
+    href="https://jekyllrb.com/">Jekyll</a>). Utilized the Bootstrap
+    framework to achieve modern UI in order to provide meaningful and
+    positive user experience. Hosted via <a
+    href="https://pages.github.com/">GithubPages</a> using a custom domain.
 
 - name: Concept
-  image: https://via.placeholder.com/1080x360/
+  image: /assets/images/projects/concept.png
   url: https://github.com/ajilk/concept
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-      placerat dui cursus sapien hendrerit, a aliquet est suscipit. Etiam magna
-      justo, egestas at est ut, ultricies molestie eros. Vestibulum a nulla
-      congue, finibus nulla porta, posuere lacus. Vivamus porta auctor sapien
-      rutrum pharetra. Duis sed bibendum enim. Etiam scelerisque elit ac
-      vehicula gravida.
+  description:
+    Series of small-scale, exciting projects built from ground up and worked
+    on to demonstrate the capabilities as well as the possibilities of the <a
+    href="https://invisible-island.net/ncurses/ncurses.html">NCURSES</a>
+    library on the Unix terminal using the C++ language.
+
+- name: XO
+  image: /assets/images/projects/xo.png
+  url: https://github.com/ajilk/xo
+  description:
+    Minimalistic Tic Tac Toe game written in the <a href="https://dart.dev/"
+    Dart language using the <a href="https://flutter.dev">Flutter</a>
+    framework. Designed to be simple and visually pleasing. <a
+    href="https://material.io/design">Material Design</a> guidelines were
+    followed to provide great user experience.
