@@ -38,9 +38,8 @@ hr {
 }
 
 ._shadow:hover {
-	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1) !important;
 }
-
 
 /* Support for Responsive Buttons */
 @media (max-width: 767px) {
