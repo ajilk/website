@@ -19,6 +19,15 @@
   color: gray;
 }
 
+._link {
+  color: gray;
+}
+
+._link:hover {
+  text-decoration: none;
+  color: black;
+}
+
 .interests h1 {
   color: gray;
 }
