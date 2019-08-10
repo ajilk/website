@@ -1,5 +1,5 @@
 # image should include technologies used in the project on the side
-- name: Tracked
+- name: tracked
   image: /assets/images/projects/tracked.png
   url: "/tracked/"
   date: June 2019 - Present
