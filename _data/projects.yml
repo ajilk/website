@@ -23,7 +23,7 @@
   image: /assets/images/projects/concept.png
   url: https://github.com/ajilk/concept
   description:
-    Series of small-scale, exciting projects built from ground up and worked
+    Series of small-scale and exciting projects built from ground up and worked
     on to demonstrate the capabilities as well as the possibilities of the <a
     href="https://invisible-island.net/ncurses/ncurses.html">NCURSES</a>
     library on the Unix terminal using the C++ language.
@@ -36,4 +36,4 @@
     Dart language using the <a href="https://flutter.dev">Flutter</a>
     framework. Designed to be simple and visually pleasing. <a
     href="https://material.io/design">Material Design</a> guidelines were
-    followed to provide great user experience.
+    followed to provide a great user experience.
