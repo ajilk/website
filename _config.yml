@@ -1,5 +1,0 @@
-logo: "/assets/images/logo.png"
-portrait: "/assets/images/portrait.jpg"
-placeholder: "/assets/images/placeholder.png"
-plugins:
-  - jekyll-redirect-from
