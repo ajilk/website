@@ -33,7 +33,7 @@ showPostsSummary = true
     weight = 2
 
   [[menu.main]]
-    identifier = "project"
+    identifier = "projects"
     name = "projects"
     title = "Projects"
     url = "/projects"
