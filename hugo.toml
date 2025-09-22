@@ -1,0 +1,75 @@
+baseURL = 'https://ajilk.com'
+languageCode = 'en-us'
+title = 'Azimjon Ilkhomov'
+theme = 'not-much'
+copyright = "Azimjon Ilkhomov © {year}"
+
+[markup]
+  [markup.highlight]
+    style = 'dracula'
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+theme = "light"
+palette = "eink"
+showThemeNotice = false
+showPostsSummary = true
+
+[menu]
+  [[menu.main]]
+    identifier = "ajilk"
+    name = "ajilk"
+    title = "ajilk"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    title = "About"
+    url = "/about"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "project"
+    name = "projects"
+    title = "Projects"
+    url = "/projects"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "blog"
+    title = "Blog"
+    url = "/blog"
+    weight = 4
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "contact"
+    title = "Contact"
+    url = "/contact"
+    weight = 5
+
+  [[menu.main]]
+    identifier = "github"
+    name = "github"
+    title = "GitHub"
+    url = "https://github.com/ajilk"
+    weight = 6
+
+  [[menu.main]]
+    identifier = "linkedin"
+    name = "linkedin"
+    title = "Linkedin"
+    url = "https://linkedin.com/in/ajilk"
+    weight = 7
+
+  [[menu.main]]
+    identifier = "resume"
+    name = "resume"
+    title = "Resume"
+    url = "/resume.pdf"
+    weight = 8

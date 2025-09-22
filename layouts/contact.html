@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div class="container pt-5">
+    <div class="row mt-5 pt-5">
+        <div class="col-md-12">
+            {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+            <p class="lh-lg">{{ .Content }}</p>
+        </div>
+    </div>
+</div>
+<footer>{{ partial "footer.html" . }}</footer>
+{{ end }}
