@@ -3,9 +3,9 @@
 <div class="container pt-5">
     <div class="row mt-5 pt-5">
         <div class="col-md-12">
-            {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
-            <h1 class="display-6 text-uppercase lh-sm">{{ $title }}</h1>
-            {{ if isset .Params "lead" }}
+            {{ partial "menu.html" (dict "menuID" "main" "page" .) }} {{ if
+            isset .Params "lead" }}
+            <h1 class="fs-1 text-uppercase lh-sm fw-lighter">{{ $title }}</h1>
             <p class="lead pb-2">
                 <span class="underline">{{ .Params.lead }}</span>
             </p>

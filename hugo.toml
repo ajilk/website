@@ -53,18 +53,26 @@ showPostsSummary = true
     url = "/contact"
     weight = 5
 
-  [[menu.main]]
-    identifier = "github"
-    name = "github"
-    title = "GitHub"
-    url = "https://github.com/ajilk"
-    weight = 6
+  # [[menu.main]]
+  #   identifier = "github"
+  #   name = "github"
+  #   title = "GitHub"
+  #   url = "https://github.com/ajilk"
+  #   weight = 6
+
+  # [[menu.main]]
+  #   identifier = "linkedin"
+  #   name = "linkedin"
+  #   title = "Linkedin"
+  #   url = "https://linkedin.com/in/ajilk"
+  #   weight = 7
+  #
 
   [[menu.main]]
-    identifier = "linkedin"
-    name = "linkedin"
-    title = "Linkedin"
-    url = "https://linkedin.com/in/ajilk"
+    identifier = "certs"
+    name = "certs"
+    title = "Certifications"
+    url = "/certs"
     weight = 7
 
   [[menu.main]]
