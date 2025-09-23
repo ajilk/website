@@ -4,6 +4,10 @@ title = 'Azimjon Ilkhomov'
 theme = 'not-much'
 copyright = "Azimjon Ilkhomov © {year}"
 
+[services]
+  [services.googleAnalytics]
+    id = 'G-Y87B4T4KBX'
+
 [markup]
   [markup.highlight]
     style = 'dracula'
