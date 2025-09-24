@@ -44,44 +44,29 @@ showPostsSummary = true
     weight = 3
 
   [[menu.main]]
-    identifier = "blog"
-    name = "blog"
-    title = "Blog"
-    url = "/blog"
-    weight = 4
+    identifier = "github"
+    name = "github"
+    title = "GitHub"
+    url = "https://github.com/ajilk"
+    weight = 6
 
   [[menu.main]]
-    identifier = "contact"
-    name = "contact"
-    title = "Contact"
-    url = "/contact"
-    weight = 5
-
-  # [[menu.main]]
-  #   identifier = "github"
-  #   name = "github"
-  #   title = "GitHub"
-  #   url = "https://github.com/ajilk"
-  #   weight = 6
-
-  # [[menu.main]]
-  #   identifier = "linkedin"
-  #   name = "linkedin"
-  #   title = "Linkedin"
-  #   url = "https://linkedin.com/in/ajilk"
-  #   weight = 7
-  #
+    identifier = "linkedin"
+    name = "linkedin"
+    title = "Linkedin"
+    url = "https://linkedin.com/in/ajilk"
+    weight = 7
 
   [[menu.main]]
     identifier = "certs"
     name = "certs"
     title = "Certifications"
     url = "/certs"
-    weight = 7
+    weight = 5
 
-  [[menu.main]]
-    identifier = "resume"
-    name = "resume"
-    title = "Resume"
-    url = "/resume.pdf"
-    weight = 8
+ [[menu.main]]
+   identifier = "contact"
+   name = "contact"
+   title = "Contact"
+   url = "/contact"
+   weight = 8
