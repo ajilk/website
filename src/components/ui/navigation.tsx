@@ -1,6 +1,5 @@
 "use client";
 import { cn } from "@/lib/utils";
-import { ModeToggle } from "../mode-toggle";
 import { Button } from "./button";
 import { Separator } from "./separator";
 export interface INavigationProps {
@@ -15,7 +14,6 @@ export default function Navigation(props: INavigationProps) {
       <div className="flex gap-2">
         <Button>Contact</Button>
         <Separator orientation="vertical" color="white" />
-        <ModeToggle />
       </div>
     </div>
   );
