@@ -38,8 +38,8 @@ export default function Contact() {
   };
 
   return (
-    <div className="container mx-auto px-4 py-16 max-w-4xl">
-      <Card className="bg-transparent border-none shadow-none">
+    <div className="container mx-auto px-0 lg:px-4 py-16 max-w-4xl">
+      <Card className="bg-transparent border- shadow-none p-0">
         <CardHeader>
           <CardTitle className="text-2xl">say hey</CardTitle>
           <CardDescription>
