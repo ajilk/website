@@ -11,11 +11,5 @@ export interface INavigationProps {
 export default function Navigation(props: INavigationProps) {
   const { className } = props;
 
-  return (
-    <div className={cn(className, "rounded-lg flex justify-end")}>
-      <Button variant={"outline"}>
-        <Link href={"/contact"}>contact</Link>
-      </Button>
-    </div>
-  );
+  return <div className={cn(className, "rounded-lg flex justify-end")}></div>;
 }

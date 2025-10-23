@@ -1,6 +1,7 @@
-import Carousel from "@/components/carousel";
+"use client";
+
+import Pet from "@/components/pet";
 import { Button } from "@/components/ui/button";
-import Navigation from "@/components/ui/navigation";
 import { PersonStanding } from "lucide-react";
 import Link from "next/link";
 
@@ -41,6 +42,9 @@ export default function Home() {
           </Button>
         </Link>
       </p>
+      <div className="fixed left-0 bottom-0">
+        <Pet />
+      </div>
     </div>
   );
 }
