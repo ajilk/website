@@ -23,7 +23,7 @@ export default function Home() {
     <div className="h-[calc(100vh-5rem)] flex flex-col justify-center">
       <p className="text-5xl lg:text-7xl font-extralight">
         <span>hey,</span> i am{" "}
-        <span className="font-semibold text-blue-500">Azim</span>
+        <span className="font-semibold text-[#1A98FF]">Azim</span>
       </p>
       <p className="text-2xl lg:text-4xl font-light text-gray-500 pt-5">
         debugging since [year you started]
