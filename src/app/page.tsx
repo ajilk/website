@@ -1,7 +1,7 @@
-import Carousel from "@/components/carousel";
+"use client";
+
+import Pet from "@/components/pet";
 import { Button } from "@/components/ui/button";
-import { ButtonGroup } from "@/components/ui/button-group";
-import Navigation from "@/components/ui/navigation";
 import { PersonStanding } from "lucide-react";
 import Link from "next/link";
 
@@ -11,37 +11,39 @@ export default function Home() {
     { label: "Github", icon: <PersonStanding />, link: "https://google.com" },
     { label: "Twitter", icon: <PersonStanding />, link: "https://google.com" },
   ];
+
+  const links_jsx = links.map((link) => (
+    <Button key={link.label} variant={"outline"} className="mx-1" size="lg">
+      {link.icon}
+      <Link href={link.link}>{link.label}</Link>
+    </Button>
+  ));
+
   return (
-    <div className="container mx-auto">
-      <Navigation className="mt-5"></Navigation>
-      <div className="flex">
-        <div className="m-auto">
-          <p className="text-7xl my-10 font-extralight">
-            <span className="">Hey,</span> I am{" "}
-            <span className="italic">Azim</span>
-          </p>
-          <p className="text-5xl my-10 font-extralight text-gray-400">
-            I'm passionate about crafting high-quality, performant applications
-            using the latest frameworks and technologies to build products that
-            make a real impact.
-          </p>
-          {links.map((link) => (
-            <Button
-              key={link.label}
-              variant={"outline"}
-              className="mx-1"
-              size="lg"
-            >
-              {link.icon}
-              <Link href={link.link}>{link.label}</Link>
-            </Button>
-          ))}
-          <div className="mt-16">
-            <Carousel></Carousel>
-          </div>
-        </div>
-        {/*<div className="m-auto">*/}
-        {/*</div>*/}
+    <div className="h-[calc(100vh-5rem)] flex flex-col justify-center">
+      <p className="text-5xl lg:text-7xl font-extralight">
+        <span>hey,</span> i am{" "}
+        <span className="font-semibold text-[#1A98FF]">Azim</span>
+      </p>
+      <p className="text-2xl lg:text-4xl font-light text-gray-500 pt-5">
+        debugging since [year you started]
+        {/*professional bug creator (and eventual fixer)*/}
+      </p>
+      <p className="text-2xl lg:text-3xl font-extralight text-gray-400 pt-5">
+        passionate software engineer with an obsessive eye for detail. i build
+        polished digital experiences where every pixel and interaction matters.
+        check out what i'm up to
+        <Link href="/now">
+          <Button
+            className="ps-2 text-2xl lg:text-3xl font-extralight text-blue-500"
+            variant="link"
+          >
+            now
+          </Button>
+        </Link>
+      </p>
+      <div className="fixed left-0 bottom-0">
+        <Pet />
       </div>
     </div>
   );
