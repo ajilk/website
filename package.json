@@ -4,8 +4,7 @@
     "dev": "next dev",
     "clean": "rm -rf .next out",
     "clean:build": "rm -rf .next out && next build",
-    "build": "next build",
-    "deploy": "next build && touch out/.nojekyll && git add out/ && git commit -m \"Deploy\" && git subtree push --prefix out origin gh-pages"
+    "build": "next build"
   },
   "dependencies": {
     "@lottiefiles/dotlottie-react": "^0.17.5",
